@@ -13,8 +13,11 @@
     .price{font-size:44px;color:gold;font-weight:bold}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:20px 0}
     .item{background:#2a2a2a;padding:12px;border-radius:12px;text-align:center}
-    .btn{position:fixed;right:18px;bottom:18px;background:#25D366;color:#fff;padding:16px 22px;border-radius:999px;text-decoration:none;font-weight:bold}
+    .btn-wsp{position:fixed;right:18px;bottom:18px;background:#25D366;color:#fff;padding:16px 22px;border-radius:999px;text-decoration:none;font-weight:bold}
+    .btn-fb{position:fixed;right:18px;bottom:90px;background:#1877F2;color:#fff;padding:16px 22px;border-radius:999px;text-decoration:none;font-weight:bold}
     iframe{border:0;border-radius:12px;margin-top:10px}
+    .redes{margin-top:25px;text-align:center}
+    .redes a{color:#ff6a00;font-weight:bold;text-decoration:none;margin:0 10px}
   </style>
 </head>
 <body>
@@ -30,7 +33,21 @@
     
     <h2>Todos los paquetes incluyen papas 🍟</h2>
     <div class='price'>$150 MXN</div>
+
+    <!-- SECCIÓN DE SALSAS AGREGADA ARRIBA DE LOS PRODUCTOS -->
+    <h3>🔥 Elige tus salsas favoritas</h3>
+    <div class='grid'>
+      <div class='item'>Buffalo</div>
+      <div class='item'>BBQ</div>
+      <div class='item'>Mango Habanero</div>
+      <div class='item'>Chipotle</div>
+      <div class='item'>Ajo</div>
+      <div class='item'>Picante Extremo</div>
+      <div class='item'>Queso</div>
+      <div class='item'>Natural</div>
+    </div>
     
+    <h3>📦 Productos disponibles</h3>
     <div class='grid'>
       <div class='item'>Alitas</div>
       <div class='item'>Boneless</div>
@@ -39,15 +56,14 @@
       <div class='item'>Nuggets</div>
       <div class='item'>Dedos de queso</div>
       <div class='item'>Aros de cebolla</div>
-      <div class='item'>palomitas de pollo</div>
+      <div class='item'>Palomitas de pollo</div>
     </div>
     
     <h3>Horario</h3>
     <p>Lunes, miércoles, jueves, viernes, sábado, domingo.<br>6pm - 11pm</p>
     
     <h3>Ubicación</h3>
-    <p>Wings San Juan</p>
-    <!-- Mapa configurado para mostrar el pin del negocio en San Juan de Alima -->
+    <p>Wings San Juan, San Juan de Alima, Michoacán</p>
     <iframe 
       src='https://www.google.com/maps?q=Wings+San+Juan,San+Juan+de+Alima,Michoacan&output=embed' 
       width='100%' 
@@ -56,10 +72,16 @@
       loading='lazy' 
       referrerpolicy='no-referrer-when-downgrade'>
     </iframe>
+
+    <div class='redes'>
+      <h3>Síguenos</h3>
+      <a href='https://www.facebook.com/share/1DxBgEKkJG/' target='_blank'>📘 Visita nuestra página de Facebook</a>
+    </div>
   </div>
 </div>
 
-<a class='btn' href='https://wa.me/523334864706' target='_blank'>📲 WhatsApp</a>
+<a class='btn-fb' href='https://www.facebook.com/share/1DxBgEKkJG/' target='_blank'>📘 Facebook</a>
+<a class='btn-wsp' href='https://wa.me/523334864706' target='_blank'>📲 WhatsApp</a>
 
 </body>
 </html>
