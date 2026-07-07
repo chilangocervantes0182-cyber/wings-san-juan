@@ -9,14 +9,15 @@
     header{background:linear-gradient(90deg,#ff6a00,#4a148c);padding:30px;text-align:center}
     .wrap{max-width:1000px;margin:auto;padding:20px}
     .card{background:#121212;border-radius:20px;padding:20px;box-shadow:0 0 20px rgba(255,106,0,0.25)}
-    img{width:100%;border-radius:16px;object-fit:cover}
-    .price{font-size:44px;color:#ff6a00;font-weight:bold}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:20px 0}
-    .item{background:#1e1e1e;border:1px solid #ff6a0040;padding:12px;border-radius:12px;text-align:center}
-    .btn-wsp{position:fixed;right:18px;bottom:18px;background:#25D366;color:#fff;padding:16px 22px;border-radius:999px;text-decoration:none;font-weight:bold;box-shadow:0 4px 12px rgba(0,0,0,0.4)}
-    .btn-fb{position:fixed;right:18px;bottom:90px;background:#1877F2;color:#fff;padding:16px 22px;border-radius:999px;text-decoration:none;font-weight:bold;box-shadow:0 4px 12px rgba(0,0,0,0.4)}
+    .menu-img{width:100%;border-radius:16px;display:block}
+    .price{font-size:44px;color:#ff6a00;font-weight:bold;text-align:center;margin:10px 0 30px}
+    .grid{display:grid;grid-template-columns:1fr;gap:12px;margin:20px 0}
+    .item{background:#1e1e1e;border:1px solid #ff6a0080;padding:14px;border-radius:12px;text-align:center;font-size:19px;display:flex;align-items:center;justify-content:center;gap:10px}
+    .item img{width:40px;height:40px;object-fit:cover;border-radius:8px}
+    .btn-wsp{position:fixed;right:18px;bottom:18px;background:#25D366;color:#fff;padding:16px 22px;border-radius:999px;text-decoration:none;font-weight:bold;box-shadow:0 4px 12px rgba(0,0,0,0.4);z-index:999}
+    .btn-fb{position:fixed;right:18px;bottom:90px;background:#1877F2;color:#fff;padding:16px 22px;border-radius:999px;text-decoration:none;font-weight:bold;box-shadow:0 4px 12px rgba(0,0,0,0.4);z-index:999}
     iframe{border:1px solid #ff6a0030;border-radius:12px;margin-top:10px;width:100%}
-    h3{color:#ff6a00}
+    h3{color:#ff6a00;font-size:24px;margin:30px 0 15px}
   </style>
 </head>
 <body>
@@ -28,23 +29,23 @@
 
 <div class='wrap'>
   <div class='card'>
-    <img src='menu.jpg' alt='Menú Wings San Juan'>
+    <img src='menu.jpg' alt='Menú Wings San Juan' class="menu-img">
     
-    <h2>Todos los paquetes incluyen papas 🍟</h2>
+    <h2 style="text-align:center">Todos los paquetes incluyen papas 🍟</h2>
     <div class='price'>$150 MXN</div>
 
     <!-- PRODUCTOS ARRIBA -->
     <h3>📦 Productos disponibles</h3>
     <div class='grid'>
-      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1JfXYPrtQ8XteExzoIPk6dgXyj0by3uiJ" alt="Alitas"></div>
-      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1P-WCcZKG4-lkY535fWrQ5EDplL3j7tTz" alt="Boneless"></div>
-      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1XFTLFzbodMNRLTt1h44_UVSYs372aLqr" alt="Hamburguesa de Res"></div>
-      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1A5D2SNOv81eCPzTd1GmK5bgDdE4cS1Fq" alt="Hamburguesa de Pollo"></div>
-      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1ELgyQlY5zQc3jcKxfWRr2hCByBTP8uaO" alt="Tenders"></div>
-      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1lU8EOAAo92A_5r6cZstbRhlykh94xZrm" alt="Nuggets"></div>
-      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1NyrqvNCD4igoZCyNDWi_2573BaT60mEu" alt="Dedos de queso"></div>
-      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1Sivna8ZE5T8glWBNf8lB7ytBkSjd6TiC" alt="Aros de cebolla"></div>
-      <div class='item'><img src="https://drive.google.com/uc?export=view&id=10Kbbv_08ymaAZlbBlkXojCuIcZTEDl-p" alt="Palomitas de pollo"></div>
+      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1JfXYPrtQ8XteExzoIPk6dgXyj0by3uiJ" alt="Alitas"> Alitas</div>
+      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1P-WCcZKG4-lkY535fWrQ5EDplL3j7tTz" alt="Boneless"> Boneless</div>
+      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1XFTLFzbodMNRLTt1h44_UVSYs372aLqr" alt="Hamburguesa de Res"> Hamburguesa de Res</div>
+      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1A5D2SNOv81eCPzTd1GmK5bgDdE4cS1Fq" alt="Hamburguesa de Pollo"> Hamburguesa de Pollo</div>
+      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1ELgyQlY5zQc3jcKxfWRr2hCByBTP8uaO" alt="Tenders"> Tenders</div>
+      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1lU8EOAAo92A_5r6cZstbRhlykh94xZrm" alt="Nuggets"> Nuggets</div>
+      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1NyrqvNCD4igoZCyNDWi_2573BaT60mEu" alt="Dedos de queso"> Dedos de queso</div>
+      <div class='item'><img src="https://drive.google.com/uc?export=view&id=1Sivna8ZE5T8glWBNf8lB7ytBkSjd6TiC" alt="Aros de cebolla"> Aros de cebolla</div>
+      <div class='item'><img src="https://drive.google.com/uc?export=view&id=10Kbbv_08ymaAZlbBlkXojCuIcZTEDl-p" alt="Palomitas de pollo"> Palomitas de pollo</div>
     </div>
 
     <!-- SALSAS HASTA ABAJO -->
@@ -73,7 +74,7 @@
   </div>
 </div>
 
-<a class='btn-fb'https://www.facebook.com/share/1DxBgEKkJG/' target='_blank'>📘 Facebook</a>
+<a class='btn-fb' href='https://www.facebook.com/share/1DxBgEKkJG/' target='_blank'>📘 Facebook</a>
 <a class='btn-wsp' href='https://wa.me/523334864706' target='_blank'>📲 WhatsApp</a>
 
 </body>
