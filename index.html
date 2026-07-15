@@ -12,8 +12,8 @@
     .menu-img{width:100%;border-radius:16px;display:block}
     .price{font-size:44px;color:#ff6a00;font-weight:bold;text-align:center;margin:10px 0 30px}
     .grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(170px, 1fr));gap:18px;margin:20px 0}
-    .item{background:#1e1e1e;border:1px solid #ff6a0080;padding:15px;border-radius:12px;display:flex;align-items:center;justify-content:center}
-    .item img{width:150px;height:150px;object-fit:cover;border-radius:8px;flex-shrink:0}
+    .item{background:#1e1e1e;border:1px solid #ff6a0080;padding:15px;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+    .item img{width:150px;height:150px;object-fit:cover;border-radius:8px;flex-shrink:0;margin-bottom:8px}
     .btn-wsp{position:fixed;right:18px;bottom:18px;background:#25D366;color:#fff;padding:16px 22px;border-radius:999px;text-decoration:none;font-weight:bold;box-shadow:0 4px 12px rgba(0,0,0,0.4);z-index:999}
     .btn-fb{position:fixed;right:18px;bottom:90px;background:#1877F2;color:#fff;padding:16px 22px;border-radius:999px;text-decoration:none;font-weight:bold;box-shadow:0 4px 12px rgba(0,0,0,0.4);z-index:999}
     iframe{border:1px solid #ff6a0030;border-radius:12px;margin-top:10px;width:100%}
@@ -48,7 +48,7 @@
       <div class='item'><img src="https://i.ibb.co/XPfYSg2/file-00000000751c71fd87fad06b8bdeff9a.png" alt=""></div>
     </div>
 
-    <!-- SALSAS DE ALITAS - AHORA ARRIBA -->
+    <!-- SALSAS DE ALITAS -->
     <h3>🔥 Elige tu salsa favorita</h3>
     <div class='grid'>
       <div class='item'>BBQ</div>
@@ -58,17 +58,41 @@
       <div class='item'>TAMARINDO HABANERO</div>
     </div>
 
-    <!-- BEBIDAS - AHORA ABAJO -->
+    <!-- 🥤 BEBIDAS EN EL ORDEN QUE PEDISTE -->
     <h3>🥤 Bebidas</h3>
     <div class='grid'>
-      <div class='item'><img src="https://drive.google.com/file/d/1R1lpBGnCtcZJkXuO_x0iVxqDJA3_8ieK/view?usp=drivesdk" alt=""></div>
-      <div class='item'><img src="https://drive.google.com/file/d/1nAKh6n7n3MRpn3Aii8tB0FF_YdIJvWpL/view?usp=drivesdk" alt=""></div>
-      <div class='item'><img src="https://drive.google.com/file/d/1J3LkVQi254P-AaHZ4b3Flv3yGEQdYKaV/view?usp=drivesdk" alt=""></div>
-      <div class='item'><img src="https://drive.google.com/file/d/1ltAp3awetcPFU6jIzLl8DpRx7_qBgKjt/view?usp=drivesdk" alt=""></div>
-      <div class='item'><img src="https://drive.google.com/file/d/1XBx2nFcZxV6diwyBDN11bTK4SuoFE5qt/view?usp=drivesdk" alt=""></div>
-      <div class='item'><img src="https://drive.google.com/file/d/1CyXewNVRc2QL_FH2uGPMr-7ElQD3ymwy/view?usp=drivesdk" alt=""></div>
-      <div class='item'><img src="https://drive.google.com/file/d/1JSzHriETDIlHC6RXtx86G8TaplRf8lND/view?usp=drivesdk" alt=""></div>
-      <div class='item'><img src="https://drive.google.com/file/d/1QaSiT5euBOnJFkNtMBdnq1rPY1MO1KkZ/view?usp=drivesdk" alt=""></div>
+      <div class='item'>
+        <img src="https://drive.google.com/uc?export=view&id=1R1lpBGnCtcZJkXuO_x0iVxqDJA3_8ieK" alt="Pitufina">
+        Pitufina
+      </div>
+      <div class='item'>
+        <img src="https://drive.google.com/uc?export=view&id=1nAKh6n7n3MRpn3Aii8tB0FF_YdIJvWpL" alt="MOJITO">
+        MOJITO
+      </div>
+      <div class='item'>
+        <img src="https://drive.google.com/uc?export=view&id=1J3LkVQi254P-AaHZ4b3Flv3yGEQdYKaV" alt="CANTARITO">
+        CANTARITO
+      </div>
+      <div class='item'>
+        <img src="https://drive.google.com/uc?export=view&id=1ltAp3awetcPFU6jIzLl8DpRx7_qBgKjt" alt="PIÑA COLADA">
+        PIÑA COLADA
+      </div>
+      <div class='item'>
+        <img src="https://drive.google.com/uc?export=view&id=1XBx2nFcZxV6diwyBDN11bTK4SuoFE5qt" alt="MICHELADA">
+        MICHELADA
+      </div>
+      <div class='item'>
+        <img src="https://drive.google.com/uc?export=view&id=1CyXewNVRc2QL_FH2uGPMr-7ElQD3ymwy" alt="SODAS ITALIANAS">
+        SODAS ITALIANAS
+      </div>
+      <div class='item'>
+        <img src="https://drive.google.com/uc?export=view&id=1JSzHriETDIlHC6RXtx86G8TaplRf8lND" alt="CAGUAMA PREPARADA">
+        CAGUAMA PREPARADA
+      </div>
+      <div class='item'>
+        <img src="https://drive.google.com/uc?export=view&id=1QaSiT5euBOnJFkNtMBdnq1rPY1MO1KkZ" alt="Caguama BASUCA">
+        Caguama BASUCA
+      </div>
     </div>
     
     <h3>Horario</h3>
@@ -87,7 +111,7 @@
   </div>
 </div>
 
-<a class='btn-fb' href='https://www.facebook.com/share/1DxBgEKkJG/' target='_blank'>📘 Facebook</a>
+<a class='btn-fb' href='TU_ENLACE_DE_FACEBOOK' target='_blank'>📘 Facebook</a>
 <a class='btn-wsp' href='https://wa.me/523334864706' target='_blank'>📲 WhatsApp</a>
 
 </body>
